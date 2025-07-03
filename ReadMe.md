@@ -5,7 +5,7 @@ StyleGAN2-ADA is a data-efficient GAN capable of generating realistic images wit
 We selected ResNet-18 as our classifier, a proven convolutional neural network with residual connections that allow deeper networks to train effectively. Pretrained on ImageNet, then fine-tuned on our face dataset. We benefitted from transfer learning as it gives better feature extraction from limited data. It is also lightweight and fast, making it suitable for experimentation and potential deployment.
 Evaluated using accuracy, precision, recall, and F1-score on the validation set (real images only)
 
-## 📊 Results – Task A: Gender Classification
+## 📊 Results :
 
 ### 🧪 Final Evaluation Metrics
 
