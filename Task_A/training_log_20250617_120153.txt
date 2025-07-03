@@ -1,0 +1,100 @@
+
+=== Epoch 1 ===
+Train Loss           : 0.00020934933541934484
+Val Accuracy         : 0.566350710900474
+Val Precision (female, male): 0.292, 0.9651162790697675
+Val Recall    (female, male): 0.9240506329113924, 0.4839650145772595
+Val F1 Score  (female, male): 0.44376899696048633, 0.6446601941747573
+Val Confusion Matrix:
+[[ 73   6]
+ [177 166]]
+
+=== Epoch 2 ===
+Train Loss           : 0.00017320929136825243
+Val Accuracy         : 0.8530805687203792
+Val Precision (female, male): 0.6545454545454545, 0.8828337874659401
+Val Recall    (female, male): 0.45569620253164556, 0.9446064139941691
+Val F1 Score  (female, male): 0.5373134328358209, 0.9126760563380282
+Val Confusion Matrix:
+[[ 36  43]
+ [ 19 324]]
+
+=== Epoch 3 ===
+Train Loss           : 0.0001496117076681971
+Val Accuracy         : 0.6398104265402843
+Val Precision (female, male): 0.3333333333333333, 0.9704433497536946
+Val Recall    (female, male): 0.9240506329113924, 0.5743440233236151
+Val F1 Score  (female, male): 0.4899328859060403, 0.7216117216117216
+Val Confusion Matrix:
+[[ 73   6]
+ [146 197]]
+
+=== Epoch 4 ===
+Train Loss           : 0.00012125472051386701
+Val Accuracy         : 0.7701421800947867
+Val Precision (female, male): 0.4407894736842105, 0.9555555555555556
+Val Recall    (female, male): 0.8481012658227848, 0.7521865889212828
+Val F1 Score  (female, male): 0.5800865800865801, 0.8417618270799347
+Val Confusion Matrix:
+[[ 67  12]
+ [ 85 258]]
+
+=== Epoch 5 ===
+Train Loss           : 8.019478219076638e-05
+Val Accuracy         : 0.8436018957345972
+Val Precision (female, male): 0.549618320610687, 0.9759450171821306
+Val Recall    (female, male): 0.9113924050632911, 0.8279883381924198
+Val F1 Score  (female, male): 0.6857142857142857, 0.8958990536277602
+Val Confusion Matrix:
+[[ 72   7]
+ [ 59 284]]
+
+=== Epoch 6 ===
+Train Loss           : 5.12560482858245e-05
+Val Accuracy         : 0.8364928909952607
+Val Precision (female, male): 0.5390625, 0.9659863945578231
+Val Recall    (female, male): 0.8734177215189873, 0.8279883381924198
+Val F1 Score  (female, male): 0.6666666666666666, 0.8916797488226059
+Val Confusion Matrix:
+[[ 69  10]
+ [ 59 284]]
+
+=== Epoch 7 ===
+Train Loss           : 4.961610276859857e-05
+Val Accuracy         : 0.9028436018957346
+Val Precision (female, male): 0.796875, 0.9217877094972067
+Val Recall    (female, male): 0.6455696202531646, 0.9620991253644315
+Val F1 Score  (female, male): 0.7132867132867133, 0.9415121255349501
+Val Confusion Matrix:
+[[ 51  28]
+ [ 13 330]]
+
+=== Epoch 8 ===
+Train Loss           : 3.303831628542384e-05
+Val Accuracy         : 0.8933649289099526
+Val Precision (female, male): 0.7833333333333333, 0.9116022099447514
+Val Recall    (female, male): 0.5949367088607594, 0.9620991253644315
+Val F1 Score  (female, male): 0.6762589928057554, 0.9361702127659575
+Val Confusion Matrix:
+[[ 47  32]
+ [ 13 330]]
+
+=== Epoch 9 ===
+Train Loss           : 1.6574326392511916e-05
+Val Accuracy         : 0.9123222748815166
+Val Precision (female, male): 0.8387096774193549, 0.925
+Val Recall    (female, male): 0.6582278481012658, 0.9708454810495627
+Val F1 Score  (female, male): 0.7375886524822695, 0.9473684210526315
+Val Confusion Matrix:
+[[ 52  27]
+ [ 10 333]]
+
+=== Epoch 10 ===
+Train Loss           : 6.3568714643962275e-06
+Val Accuracy         : 0.9123222748815166
+Val Precision (female, male): 0.8, 0.9346590909090909
+Val Recall    (female, male): 0.7088607594936709, 0.9591836734693877
+Val F1 Score  (female, male): 0.7516778523489933, 0.9467625899280575
+Val Confusion Matrix:
+[[ 56  23]
+ [ 14 329]]

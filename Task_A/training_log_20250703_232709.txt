@@ -1,0 +1,100 @@
+
+=== Epoch 1 ===
+Train Loss           : 0.0001
+Accuracy             : 0.8507
+Precision (female, male): 0.7017, 0.9394
+Recall    (female, male): 0.8734, 0.8410
+F1 Score  (female, male): 0.7782, 0.8875
+Confusion Matrix:
+[[ 607   88]
+ [ 258 1365]]
+
+=== Epoch 2 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9370
+Precision (female, male): 0.8579, 0.9761
+Recall    (female, male): 0.9468, 0.9328
+F1 Score  (female, male): 0.9001, 0.9540
+Confusion Matrix:
+[[ 658   37]
+ [ 109 1514]]
+
+=== Epoch 3 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9594
+Precision (female, male): 0.9001, 0.9879
+Recall    (female, male): 0.9727, 0.9538
+F1 Score  (female, male): 0.9350, 0.9705
+Confusion Matrix:
+[[ 676   19]
+ [  75 1548]]
+
+=== Epoch 4 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9767
+Precision (female, male): 0.9458, 0.9906
+Recall    (female, male): 0.9784, 0.9760
+F1 Score  (female, male): 0.9618, 0.9832
+Confusion Matrix:
+[[ 680   15]
+ [  39 1584]]
+
+=== Epoch 5 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9905
+Precision (female, male): 0.9760, 0.9969
+Recall    (female, male): 0.9928, 0.9895
+F1 Score  (female, male): 0.9843, 0.9932
+Confusion Matrix:
+[[ 690    5]
+ [  17 1606]]
+
+=== Epoch 6 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9853
+Precision (female, male): 0.9675, 0.9932
+Recall    (female, male): 0.9842, 0.9858
+F1 Score  (female, male): 0.9757, 0.9895
+Confusion Matrix:
+[[ 684   11]
+ [  23 1600]]
+
+=== Epoch 7 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9970
+Precision (female, male): 0.9900, 1.0000
+Recall    (female, male): 1.0000, 0.9957
+F1 Score  (female, male): 0.9950, 0.9978
+Confusion Matrix:
+[[ 695    0]
+ [   7 1616]]
+
+=== Epoch 8 ===
+Train Loss           : 0.0000
+Accuracy             : 1.0000
+Precision (female, male): 1.0000, 1.0000
+Recall    (female, male): 1.0000, 1.0000
+F1 Score  (female, male): 1.0000, 1.0000
+Confusion Matrix:
+[[ 695    0]
+ [   0 1623]]
+
+=== Epoch 9 ===
+Train Loss           : 0.0000
+Accuracy             : 1.0000
+Precision (female, male): 1.0000, 1.0000
+Recall    (female, male): 1.0000, 1.0000
+F1 Score  (female, male): 1.0000, 1.0000
+Confusion Matrix:
+[[ 695    0]
+ [   0 1623]]
+
+=== Epoch 10 ===
+Train Loss           : 0.0000
+Accuracy             : 0.9996
+Precision (female, male): 0.9986, 1.0000
+Recall    (female, male): 1.0000, 0.9994
+F1 Score  (female, male): 0.9993, 0.9997
+Confusion Matrix:
+[[ 695    0]
+ [   1 1622]]
