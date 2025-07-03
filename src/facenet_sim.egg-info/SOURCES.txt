@@ -1,0 +1,11 @@
+setup.py
+src/facenet_sim/__init__.py
+src/facenet_sim/__main__.py
+src/facenet_sim/finetune.py
+src/facenet_sim/inference.py
+src/facenet_sim.egg-info/PKG-INFO
+src/facenet_sim.egg-info/SOURCES.txt
+src/facenet_sim.egg-info/dependency_links.txt
+src/facenet_sim.egg-info/entry_points.txt
+src/facenet_sim.egg-info/requires.txt
+src/facenet_sim.egg-info/top_level.txt

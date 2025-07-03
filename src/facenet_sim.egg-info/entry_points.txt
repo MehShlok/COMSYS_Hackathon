@@ -1,0 +1,3 @@
+[console_scripts]
+facenet-finetune = facenet_sim.finetune:main
+facenet-infer = facenet_sim.inference:main

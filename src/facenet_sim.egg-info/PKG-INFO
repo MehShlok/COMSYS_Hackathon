@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: facenet_sim
+Version: 0.1.0
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: pillow
+Requires-Dist: tqdm
