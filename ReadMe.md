@@ -1,6 +1,9 @@
 # Task A : 🚀 Gender Classification
+In this task we build a binary classification model to distinguish between male and female batches. The provided dataset was highly imbalanced, with a large disparity between the number of male and female face images. This posed a risk of model bias toward the majority class (male).To mitigate the class imbalance, we oversampled the minority class (female) by generating high-quality synthetic images using StyleGAN2-ADA.
+StyleGAN2-ADA is a data-efficient GAN capable of generating realistic images with limited data. We fine-tuned the generator on the Flickr-Faces-HQ Dataset (FFHQ) dataset to synthesize new samples that preserved diversity and visual fidelity. The resulting dataset was balanced between male and female images, enabling the model to learn more equally from both classes.
 
-
+We selected ResNet-18 as our classifier, a proven convolutional neural network with residual connections that allow deeper networks to train effectively. Pretrained on ImageNet, then fine-tuned on our face dataset. We benefitted from transfer learning as it gives better feature extraction from limited data. It is also lightweight and fast, making it suitable for experimentation and potential deployment.
+Evaluated using accuracy, precision, recall, and F1-score on the validation set (real images only)
 
 # Task B : 🚀 FaceNet Identity Verification
 
