@@ -1,19 +1,23 @@
+# Task A : 🚀 Gender Classification
+
+
+
 # Task B : 🚀 FaceNet Identity Verification
 
-## ⚙️ Setup your environment
+## Setting up environment
 
 ```bash
-# clone your repo if needed
+# clone our repo if needed
 git clone https://github.com/MehShlok/COMSYS_Hackathon.git
 cd face_net_implementation
 ```
-### ✅ Using conda environment.yml
+### Using conda environment.yml
 ```bash
 conda env create -f environment.yml
 conda activate pytorch_gpu_environ
 ```
 
-### ✅ Or manually install
+### Or manually install
 ```bash
 conda create -n pytorch_gpu_environ python=3.9
 conda activate pytorch_gpu_environ
@@ -21,7 +25,7 @@ pip install torch torchvision facenet-pytorch scikit-learn pillow opencv-python 
 ```
 
 ---
-## 🛠 Install your project (with setup.py)
+## Install our project (with setup.py)
 
 ```bash
 pip install -e .
@@ -29,9 +33,9 @@ pip install -e .
 
 ---
 
-## 🔥 Fine-tune on your dataset
+## Fine-tune on your dataset
 
-### ➡️ From scratch
+### From scratch
 ```bash
 python src/facenet_sim/finetune.py \
     --train_dir "Task_B/train" \
@@ -43,7 +47,7 @@ python src/facenet_sim/finetune.py \
 
 ---
 
-### ➡️ Continue fine-tuning from existing model
+### Continue fine-tuning from existing model
 ```bash
 python src/facenet_sim/finetune.py \
     --train_dir "Task_B/train" \
@@ -56,7 +60,7 @@ python src/facenet_sim/finetune.py \
 
 ---
 
-## 🚀 Run inference validation
+## Run inference validation
 
 ```bash
 python src/facenet_sim/inference.py \
@@ -72,9 +76,9 @@ Validation Accuracy: 2345/2954 = 79.38%
 
 ---
 
-## 📈 Custom parameters
+## Custom parameters
 
-### ➡️ Use a stricter threshold
+### Use a stricter threshold
 ```bash
 --threshold 0.60
 ```
