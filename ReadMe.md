@@ -116,3 +116,23 @@ Validation Accuracy: 2345/2954 = 79.38%
 ```
 
 ---
+
+
+# Model Weights
+
+This repository contains the code for our project.  
+The trained model weights are stored separately on Google Drive due to their size.
+
+## 📂 Download Model Weights
+
+You can download the model weights from the following Google Drive link:
+
+[**Download Weights from Google Drive**](https://drive.google.com/drive/folders/1nMuMpQECgC6BL7MJKBsZoT2lPy024xQ_?usp=sharing)
+
+## 🔄 How to Use
+
+1. Click the link above to open the Google Drive folder.
+2. Download all the files inside the folder to your local machine.
+3. Place the downloaded weights in the `models/` directory (or wherever your code expects the weights).
+4. Ensure your code correctly loads the weights. 
+
